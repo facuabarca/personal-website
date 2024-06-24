@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("mousemove", (event) => {
     const { clientX, clientY } = event;
 
-    gradientBackground.style.background = `radial-gradient(600px at ${clientX}px ${clientY}px, rgba(29, 78, 216, 0.15), transparent 80%)`;
+    gradientBackground.style.background = `radial-gradient(600px at ${clientX}px ${clientY}px, rgba(41, 44, 50, 1), transparent 80%)`;
   });
 
   const sections = document.querySelectorAll("main#content section");
